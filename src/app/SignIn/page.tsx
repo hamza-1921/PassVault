@@ -9,13 +9,7 @@ export default function SignIn (){
     const [Message, setMessage] = useState('')
     const [User, setUser] = useState('')
 
-  
-
-
-
-
-    
-    const SignIn = async (e:any) => {
+      const SignIn = async (e:any) => {
         e.preventDefault()
         localStorage.removeItem("NameUPP");
         localStorage.removeItem("NameUP");
